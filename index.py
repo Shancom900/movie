@@ -8,8 +8,8 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryH
 from movies_scraper import search_movies, get_movie
 
 
-TOKEN = os.getenv("TOKEN")
-URL = os.getenv("URL")
+TOKEN = os.getenv("6393912030:AAEQRDscPrAOaBO-mlx3VcDGN3OL1-SXdlE")
+URL = os.getenv("807c9dc00b2bdb6430aab0f41d4f54a9e374c72d")
 bot = Bot(TOKEN)
 
 
